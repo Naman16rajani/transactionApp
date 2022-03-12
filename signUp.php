@@ -1,8 +1,8 @@
 <?php
-const DB_SERVER = "sql310.epizy.com";
-const DB_USERNAME = "epiz_31202597";
-const DB_PASSWORD = "FL6BYpuYs8rNA";
-const DB_DATABASE = "epiz_31202597_transaction";
+const DB_SERVER = "localhost";
+const DB_USERNAME = "root";
+const DB_PASSWORD = "";
+const DB_DATABASE = "transaction";
 $db = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 $username = "";
 $password = "";
