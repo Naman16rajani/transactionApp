@@ -1,0 +1,37 @@
+.MYtable{
+    margin: auto;
+    padding: 20px;
+    width:75%;
+    height: 100%;
+    overflow: auto;
+
+}
+body{
+    /*background-color: black;*/
+}
+.modal{
+    padding:20px;
+    /*margin:20px;*/
+}
+.defaultCursor {
+    cursor: zoom-out;
+}
+.nav-wrapper{
+    z-index: 99999;
+}
+tbody{
+    overflow: auto;
+}
+@media screen and (max-width:700px) {
+.MYtable{
+    margin: auto;
+    padding: 20px;
+    width:95%;
+    height:80vh;
+    overflow: auto;
+
+}
+    nav .brand-logo{
+        font-size: 1.2rem;
+    }
+}
