@@ -7,10 +7,10 @@ $user_check="";
 function CreateServer(){
     $user_check = $_SESSION['login_user'];
 
-    $servername = "sql310.epizy.com";
-    $username = "epiz_31202597";
-    $password = "FL6BYpuYs8rNA";
-    $dbname = "epiz_31202597_transaction";
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "transaction";
 
     return new mysqli($servername, $username, $password,$dbname);
 
