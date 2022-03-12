@@ -8,10 +8,10 @@ $user_check = $_SESSION['login_user'];
 // echo $user_check."jjj";
 
 
-$servername = "sql310.epizy.com";
-$user = "epiz_31202597";
-$password = "FL6BYpuYs8rNA";
-$database = "epiz_31202597_transaction";
+$servername = "localhost";
+$user = "root";
+$password = "";
+$database = "transaction";
 $mysqli = new mysqli($servername, $user,
     $password, $database);
 
